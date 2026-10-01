@@ -35,6 +35,16 @@ a {
   text-decoration: none;
 }
 
+/* classe global para botões */
+.button {
+  width: 90px;
+  height: 24px;
+  border-radius:5px;
+  background-color: #0d6efd;
+  color: white;
+  margin-right: 4px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

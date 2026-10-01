@@ -1,6 +1,4 @@
-
-import Helloworld from "@/components/helloworld";
-import User from "@/components/User";
+import Semaforo from "@/components/Semaforo";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,11 +10,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Olá, mundo! Meu primeiro site em React!</h1>
-      {/* Comentário no JSX */}
-      {/* Importando o primeiro componente */}
-      <Helloworld />
-      <User />
+
+      <main>
+        <Semaforo />
+      </main>
+      
     </>
   );
 }
